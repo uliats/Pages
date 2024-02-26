@@ -104,7 +104,7 @@
 import "./SubstancePage.sass";
 import { Dispatch, useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import { iSubstancesMock, requestTime } from "../../utils/consts";
+import { iSubstancesMock} from "../../utils/consts";
 import { Substance } from "../../utils/types";
 import mockImage from "/src/assets/mock.png";
 import image1 from "/src/assets/1.jpg";

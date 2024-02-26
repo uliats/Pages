@@ -107,8 +107,9 @@ const SubstancesList = () => {
     }, [query]); // Обновление списка веществ при изменении запроса
 
     const cards = substances.map(substance => (
-        <SubstanceCard substance={substance} key={substance.id} />
-    ));
+    <SubstanceCard substance={substance} key={substance.id} isMock={false} />
+));
+
 
     const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
